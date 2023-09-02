@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EverDry</string>
+    <string name="everdry">EverDry</string>
+    <string name="waterproofing_expert">Waterproofing Expert</string>
+    <string name="gauri_engineering_services">Gauri Engineering Services</string>
+    <string name="everdry1">EverDry</string>
+    <string name="waterproofing_expert1">Waterproofing Expert</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

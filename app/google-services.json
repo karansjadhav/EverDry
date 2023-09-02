@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826895544793",
+    "firebase_url": "https://everdry-7777-default-rtdb.firebaseio.com",
+    "project_id": "everdry-7777",
+    "storage_bucket": "everdry-7777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826895544793:android:4082ecd91779da5526a9c8",
+        "android_client_info": {
+          "package_name": "com.example.everdry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826895544793-uko6u8qf9mv7fjg5bi9vhng22cm7mffg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.everdry",
+            "certificate_hash": "b053cc06061fd25c196e02aed17d8be3dcdae889"
+          }
+        },
+        {
+          "client_id": "826895544793-u4tcs4s4ns2ccui5977938jt7ec3v2an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSMPkIXUixEIWrN7nFvMto8CVuUAHARMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826895544793-u4tcs4s4ns2ccui5977938jt7ec3v2an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

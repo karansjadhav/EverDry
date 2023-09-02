@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="25sp"
+android:scrollbarSize="0sp"
+tools:context=".MainActivity"
+android:background="@color/white">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--        card 1-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/a1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Polymer Bonding Chemical"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"
+            android:text="Buy Now"
+            android:textColor="#000000" />
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 2-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Waterproofing Admixture"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 3-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Membrane Coating"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 4-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Waterproof Powder"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 5-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Acrylic Crack Filler"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 6-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Elastomeric White Coating"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 7-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="UV Resistant Bituminous Tape"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4"/>
+    </androidx.cardview.widget.CardView>
+
+    <!--        card 8-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="750px"
+        android:layout_height="1000px"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="150px">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="720px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:src="@drawable/a8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16808080"
+            android:layout_marginTop="780px"
+            android:text="Coating Brush 4'"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="860px"
+            android:backgroundTint="#2a9df4" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>
